@@ -5,13 +5,13 @@ public class Main {
 
         int water = 3000; // миллилитров воды
         int potatoes = 5; // картофелин
-        double chicken = 6; // куриных бёдер
+        int chicken = 6; // куриных бёдер
         int spices = 10; // ложек специй
 
         System.out.println("Сварили суп. На одного человека вышло:");
         System.out.println((water / eaters) + " миллилитров воды");
         System.out.println((potatoes / eaters) + " картофелина");
-        System.out.println((chicken / eaters) + " куриных бедера");
+        System.out.println((chicken / eaters) + " куриное бедеро");
         System.out.println((spices / eaters) + " ложки специй");
 
     }
